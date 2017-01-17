@@ -8,11 +8,8 @@ public class New : MonoBehaviour
     public ImageTargetType mImageTargetType;
 
     [SerializeField, HideInInspector]
-    protected bool mInitializedInEditor;
-    [SerializeField, HideInInspector]
-    protected bool mPreserveChildSize;
-    [SerializeField]
     public string mTrackableName = "";
+
 
     void Start ()
     {
